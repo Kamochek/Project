@@ -1,0 +1,230 @@
+html {
+    zoom: 100%;
+    overflow: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background:url("../image/фон.jpeg") no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.logo {
+    margin-top: 2px;
+    margin-left: 270px;
+
+}
+
+.scale_logo {
+    transition: 1s;
+}
+
+.scale_logo:hover {
+    transform: scale(1.1);
+}
+
+.scale {
+    transition: 1s;
+    border: 1px solid #504532;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #9a8866;
+}
+
+.scale:hover {
+    transform: scale(1.1);
+}
+
+.main {
+    margin: 100px auto;
+    margin-top: 150px;
+    width: 1250px;
+    height: 820px;
+}
+
+h1 {
+    text-align: center;
+    color: #9a8866;
+    font-family: Candara;
+    margin-top: -890px;
+}
+
+.main img {
+
+}
+
+
+.register {
+    margin-top: -60px;
+    margin-left: 400px;
+    text-align: center;
+}
+
+
+dropbtn {
+    padding: 16px;
+    font-size: 16px;
+}
+
+.dropdown {
+    position: relative;
+    background: none;
+    width: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #282724;
+    border-radius: 8px;
+    min-width: 160px;
+    margin-left: -50px;
+    margin-top: 37px;
+    border: 1px solid #504532;
+    box-shadow: 0 0 20px #9a8866;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: 1px solid #504532;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #5c503b;
+    border-radius: 1px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #9a8866;
+
+}
+
+.registrationmenu{
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 20px black;
+    width: 350px;
+    height: 350px;
+    margin-top: -300px;
+    margin-left: 430px;
+    background: #e5e1d8
+}
+
+.login {
+    margin-left: 500px;
+    margin-top: 450px;
+}
+
+.loginimg {
+    margin-left: -295px;
+    margin-bottom: -5px;
+    float: top;
+}
+
+.login input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    font-family: Candara;
+    font-size: 20px;
+    background: ghostwhite;
+
+}
+
+.password {
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+.passwordimg {
+    margin-left: -300px;
+    margin-bottom: -5px;
+    float: top;
+}
+
+.password input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    font-family: Candara;
+    font-size: 20px;
+    background: ghostwhite;
+
+}
+
+.repeatpassword {
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+.repeatpasswordimg {
+    margin-left: -300px;
+    margin-bottom: -5px;
+    float: top;
+}
+
+.repeatpassword input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    font-family: Candara;
+    font-size: 20px;
+    background: ghostwhite;
+
+}
+
+.registerbutton{
+    font-size: 40px;
+    font-family: Candara;
+    color: #9a8866;
+    display: block;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.registerbutton a{
+    text-decoration: none;
+    color: #9a8866;
+}
+
+.registerbutton a:hover {
+    background: #5c503b;
+    border-radius: 5px;
+}
+
+.logoregister{
+    margin-top: -515px;
+    margin-left: 525px;
+}
+.logic{
+    height: 50px;
+    width: 200px;
+    color: #9a8866;
+    margin-left: 500px;
+    margin-top: 320px;
+}
